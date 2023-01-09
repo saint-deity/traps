@@ -1,9 +1,21 @@
+<!DOCTYPE html>
+
 <html>
-    <head>
-        <title>Traps</title>
-    </head>
+  <head>
+    <title>
+      TRAPPED
+    </title>
+  </head>
 
-    <body oncontextmenu="return false;" style="background-color: #2C2F33; margin: 0; padding: 0; background-image: url('https://cdn.discordapp.com/attachments/854314018553331713/994874878014525470/wallhaven-96r63w_-_Copy.png'); background-repeat: no-repeat; background-position: 50% 70%; background-size: 100% auto; background-attachment: fixed; user-select: none;">
-
-    </body>
+  <body style="margin: 0;">
+    <iframe id="bb" src="https://www.youtube.com/embed/MkL_1Qt129w?autoplay=1&mute=1" title="You're Trapped" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="height: 100%; width: 100%; position: fixed; left: 0%;"></iframe>
+    <script type="text/javascript">
+      let has = false
+      setInterval(() => {
+        if (has == false) {
+          document.getElementById('bb').contentWindow.postMessage(document.getElementById('bb').contentWindow.document.querySelector('.ytp-mute-button')[0].click(), 'https://godsclub.net/')
+        }
+      }, 100);
+    </script>
+  </body>
 </html>
