@@ -9,13 +9,5 @@
 
   <body style="margin: 0;">
     <iframe id="bb" src="https://www.youtube.com/embed/MkL_1Qt129w?autoplay=1&mute=1" title="You're Trapped" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="height: 100%; width: 100%; position: fixed; left: 0%;"></iframe>
-    <script type="text/javascript">
-      let has = false
-      setInterval(() => {
-        if (has == false) {
-          document.getElementById('bb').contentWindow.postMessage(document.getElementById('bb').contentWindow.document.querySelector('.ytp-mute-button')[0].click(), 'https://godsclub.net/')
-        }
-      }, 100);
-    </script>
   </body>
 </html>
