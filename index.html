@@ -8,6 +8,11 @@
   </head>
 
   <body style="margin: 0;">
-    <iframe id="bb" src="https://www.youtube.com/embed/MkL_1Qt129w?autoplay=1&mute=1" title="You're Trapped" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="height: 100%; width: 100%; position: fixed; left: 0%;"></iframe>
+    <video src="https://cdn.discordapp.com/attachments/1044426928611926038/1062079636084895744/Youre_Trapped.mp4" id='trapped' style="width: 100%; height: 111vh; position: fixed; margin-top: -2vh;"></video>
+    <script type="text/javascript">
+      document.getElementById('trapped').addEventListener('click', function(){
+        document.getElementById('trapped').play()
+      })
+    </script>
   </body>
 </html>
